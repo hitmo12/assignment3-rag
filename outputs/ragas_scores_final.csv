@@ -1,0 +1,11 @@
+query_id,query,llm_context_precision_without_reference,faithfulness,answer_relevancy
+1,How should we handle a reported phishing email from an employee?,0.9999999999666667,0.9230769230769231,0.7694224053452287
+2,What technical controls reduce phishing success rates?,0.5833333333041666,0.9375,0.650094251051442
+3,How do we train staff to recognise spear-phishing attempts?,0.9999999999666667,1.0,0.8128280809407685
+4,What is the incident response process after a user clicks a phishing link?,0.5833333333041666,1.0,0.5963344799621584
+5,How should we configure email filtering for a mid-sized enterprise?,0.9999999999666667,0.875,0.43298425029108956
+6,What indicators of compromise should we look for after a phishing attack?,0.9999999999666667,0.7647058823529411,0.8548068395740931
+7,How do we handle business email compromise (BEC) attempts?,0.9999999999666667,0.7333333333333333,0.652413374950058
+8,What is the recommended frequency for phishing simulation exercises?,0.9999999999666667,0.6363636363636364,0.5014791383122968
+9,How should we report a phishing incident to regulatory bodies?,0.99999999995,1.0,0.8356464975862133
+10,What multi-factor authentication setup best mitigates credential phishing?,0.9999999999666667,0.75,0.6247846749987488
