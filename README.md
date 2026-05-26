@@ -90,7 +90,7 @@ This system exceeds CyberBOT on both context precision (+0.177) and faithfulness
 │         ↓                              ↓                │
 │         └──────────────┬───────────────┘                │
 │                        ↓                                │
-│         Embedding: all-MiniLM-L6-v2 (384-dim)          │
+│         Embedding: all-MiniLM-L6-v2 (384-dim)           │
 │         Vector Store: ChromaDB HNSW (cosine sim)        │
 │         Total: 2,775 chunks                             │
 └─────────────────────────────────────────────────────────┘
@@ -104,7 +104,7 @@ This system exceeds CyberBOT on both context precision (+0.177) and faithfulness
 │       ↓                                                 │
 │  Prompt Assembly (system rules + context + query)       │
 │       ↓                                                 │
-│  Llama 3.3 70B via Groq (temp=0.2, max_tokens=512)     │
+│  Llama 3.3 70B via Groq (temp=0.2, max_tokens=512)      │
 │       ↓                                                 │
 │  3 Structured Guidelines with source citations          │
 └─────────────────────────────────────────────────────────┘
@@ -114,7 +114,7 @@ This system exceeds CyberBOT on both context precision (+0.177) and faithfulness
 │                                                         │
 │  RAGAS: Context Precision · Faithfulness · Answer Rel.  │
 │  Custom: Source Diversity · Citation · Actionability    │
-│  Judge LLM: Llama 3.1 8B via Groq (separate quota)     │
+│  Judge LLM: Llama 3.1 8B via Groq (separate quota)      │
 └─────────────────────────────────────────────────────────┘
 ```
 
