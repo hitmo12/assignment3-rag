@@ -1,0 +1,11 @@
+query_id,query,source_diversity,citation_precision,actionability_score
+1,How should we handle a reported phishing email from an employee?,0.3333,0,0.25
+2,What technical controls reduce phishing success rates?,0.6667,0,0.25
+3,How do we train staff to recognise spear-phishing attempts?,0.6667,0,0.2
+4,What is the incident response process after a user clicks a phishing link?,0.3333,0,0.35
+5,How should we configure email filtering for a mid-sized enterprise?,0.6667,1,0.4
+6,What indicators of compromise should we look for after a phishing attack?,0.6667,0,0.2
+7,How do we handle business email compromise (BEC) attempts?,1.0,1,0.2
+8,What is the recommended frequency for phishing simulation exercises?,0.6667,0,0.3
+9,How should we report a phishing incident to regulatory bodies?,0.6667,1,0.05
+10,What multi-factor authentication setup best mitigates credential phishing?,0.3333,0,0.15
