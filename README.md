@@ -180,21 +180,19 @@ assignment3-rag-cybersecurity/
 ├── README.md                              # this file
 ├── assignment3_RAG_system.ipynb           # main notebook (40 cells)
 │
-├── outputs/
-│   ├── ragas_scores_final.csv             # per-query RAGAS scores (3 metrics)
-│   ├── additional_metrics.csv             # source diversity, citation, actionability
-│   ├── rag_results.json                   # generated guidelines for all 10 queries
-│   ├── ragas_scores_chart.png             # Section 6.1 bar chart
-│   ├── chart1_metric_heatmap.png          # Section 6.4 heatmap
-│   ├── chart2_source_diversity.png        # Section 6.4 source diversity
-│   ├── chart3_actionability_score.png     # Section 6.4 actionability
-│   ├── chart4_knowledge_base_composition.png # Section 6.4 knowledge base pie
-│   ├── chart5_citation_presence.png       # Section 6.4 citation presence
-│   ├── chart6_score_distribution_boxplot.png # Section 6.4 score distribution
-│   └── comparison_prior_work.png          # Section 6.5 prior work comparison
-│
-└── docs/
-    └── README_sources.md                  # manual download instructions for CISA PDFs
+└──outputs/
+    ├── ragas_scores_final.csv             # per-query RAGAS scores (3 metrics)
+    ├── additional_metrics.csv             # source diversity, citation, actionability
+    ├── rag_results.json                   # generated guidelines for all 10 queries
+    ├── ragas_scores_chart.png             # Section 6.1 bar chart
+    ├── chart1_metric_heatmap.png          # Section 6.4 heatmap
+    ├── chart2_source_diversity.png        # Section 6.4 source diversity
+    ├── chart3_actionability_score.png     # Section 6.4 actionability
+    ├── chart4_knowledge_base_composition.png # Section 6.4 knowledge base pie
+    ├── chart5_citation_presence.png       # Section 6.4 citation presence
+    ├── chart6_score_distribution_boxplot.png # Section 6.4 score distribution
+    └── comparison_prior_work.png          # Section 6.5 prior work comparison
+
 ```
 
 > **Note:** `chunks_index.json` (~80 MB) and the `chroma_db/` folder are not included in this repository — both are regenerated automatically when the notebook is run. The ChromaDB index persists to Google Drive between sessions.
